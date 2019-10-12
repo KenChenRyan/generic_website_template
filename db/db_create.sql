@@ -8,7 +8,7 @@ CREATE TABLE class
         PRIMARY KEY (id),
 );
 
-CREATE TABLE ticket
+CREATE TABLE order
 (
 	class_id INTEGER NOT NULL,
 	child_first_name VARCHAR(30),
