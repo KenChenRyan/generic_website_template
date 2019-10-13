@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+ <title>WaiveAd</title>
+ <meta charset = "utf-8">
+ <!-- <link rel="icon" type="image/png" href="{{url_for('static', filename='STEAM-bot-head.png')}}"> -->
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+ <nav class = "navbar fixed-top">
+  <a class="navbar-brand" href="{{url_for('main.home')}}">
+   <img src="{{url_for('static', filename='STEAM-bot-head.png')}}" alt="Steam Bot Workshop Logo">
+  </a>
+ </nav>
+ <main class = "container">
+  {% with messages=get_flashed_messages(with_categories=true) %}
+   {% if messages %}
+    {% for category, message in messages %}
+     <div class="alert alert-{{category}}">
+      {{ message }}
+     </div>
+    {% endfor %}
+   {% endif %}
+  {% endwith %}
+  {%block content%} {%endblock%}
+ </main>
+ <div class = "page-footer text-center">
+  @2019, International Tech Academics. <a href="mailto:Robert@intltechacademics.com">Contact</a>
+ </div>
+</body>
+</html> 
