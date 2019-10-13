@@ -28,8 +28,12 @@ __Recomennded to be done using a venv__
 
 ### Steps for setting up venv
 Run these commands in the shell
+(Install it through pip3 first)
 ```
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 ```
+## Tips for setting up delveoper enviornment
+Setup the python venv
+Run "run.py"
