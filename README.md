@@ -36,4 +36,5 @@ pip3 install -r requirements.txt
 ```
 ## Tips for setting up delveoper enviornment
 Setup the python venv
+
 Run "run.py"
