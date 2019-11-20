@@ -1,5 +1,3 @@
-# Steam Bot Workshop Website
-
 [Tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo) for python-flask
 
 ## What keeps the server going
