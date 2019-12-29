@@ -1,6 +1,6 @@
 [Tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo) for python-flask
 
-## What keeps the server going
+## What to use to keep the server going
 Gunicorn (A python3 module that) keeps the python files in check and supervisor (apt install program) keeps gunicorn constantly running. Also nginx is the (industry standard?) web server.
 #### Restart the server with 
 ```
@@ -20,9 +20,9 @@ gunicorn -w 3 run:app
 ## pip modules to install for web
 __Recomennded to be done using a venv__
 * flask
-* flask_sqlalchemy
-* flask_bcrypt
-* flask_wtf
+* flask_sqlalchemy (Database)
+* flask_bcrypt (Encryption)
+* flask_wtf \[Forms (POST and GET)\]
 
 ### Steps for setting up venv
 Run these commands in the shell
