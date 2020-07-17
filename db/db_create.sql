@@ -1,4 +1,4 @@
-CREATE TABLE class
+CREATE TABLE object
 (
         city VARCHAR(25),
         date_created DATETIME DEFAULT NOW(),
