@@ -32,7 +32,7 @@ python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
 ```
-## Tips for setting up delveoper enviornment
+## Tips for setting up developer enviornment
 Setup the python venv
 
 Run "run.py"
