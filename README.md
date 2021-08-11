@@ -1,7 +1,7 @@
 [Tutorial](https://www.youtube.com/watch?v=MwZwr5Tvyxo) for python-flask
 
 ## What to use to keep the server going
-Gunicorn (A python3 module) keeps the python files in check and supervisor (apt install program) keeps gunicorn constantly running. Also nginx is the (industry standard?) web server.
+Gunicorn (A python3 module) that keeps the python files in check and supervisor (apt install program) keeps gunicorn constantly running. Also nginx is the (industry standard?) web server.
 #### Restart the server with 
 ```
 sudo systemctl restart nginx
